@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1a0800;
+  color: #f5efe0;
+}
+
+.section-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #b8860b;
+  margin-bottom: 1rem;
+}
+
+.gold-divider {
+  width: 60px;
+  height: 2px;
+  background-color: #b8860b;
+}
