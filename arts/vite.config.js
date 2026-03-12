@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 import svgr from 'vite-plugin-svgr'
 
 export default defineConfig({
-  base: './', 
+  base: './', // Ensures assets are relative to index.html
   plugins: [react(), tailwindcss(), svgr()],
 })
